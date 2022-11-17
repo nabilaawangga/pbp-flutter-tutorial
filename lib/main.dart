@@ -1,4 +1,4 @@
-import 'package:nabilaflutter/form.dart';
+import 'package:nabilaflutter/page/form.dart';
 import 'package:flutter/material.dart';
 
 void main() {

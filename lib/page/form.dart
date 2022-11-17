@@ -1,4 +1,5 @@
 import 'package:nabilaflutter/main.dart';
+import 'package:nabilaflutter/page/to_do_page.dart';
 import 'package:flutter/material.dart';
 
 class MyFormPage extends StatefulWidget {
@@ -50,6 +51,16 @@ bool _nilaiSwitch = false;
                             context,
                             MaterialPageRoute(builder: (context) => const MyFormPage()),
                         );
+                        },
+                    ),
+                    ListTile(
+                        title: const Text('To Do'),
+                        onTap: () {
+                            // Route menu ke halaman to do
+                            Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder: (context) => const ToDoPage()),
+                            );
                         },
                     ),
                 ],
